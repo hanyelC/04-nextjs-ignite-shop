@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <Container className={roboto.className}>
       <Header>
-        <Image {...logoImg} alt="" />
+        <Image src={logoImg} alt="" />
       </Header>
       <Component {...pageProps} />
     </Container>

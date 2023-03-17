@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@stitches/react": "^1.2.8",
+    "keen-slider": "^6.8.5",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -17,10 +18,10 @@
   },
   "devDependencies": {
     "@types/node": "18.15.3",
-    "@types/react-dom": "18.0.11",
     "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
-    "eslint-config-next": "13.2.4",
-    "eslint": "8.36.0"
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4"
   }
 }
