@@ -1,10 +1,10 @@
 import type { AppProps } from 'next/app'
 import { Roboto_Flex } from 'next/font/google'
-
-import { globalStyles } from '@/styles/global'
-import logoImg from '@/assets/logo.svg'
-import { Container, Header } from '@/styles/pages/app'
 import Image from 'next/image'
+
+import logoImg from '@/assets/logo.svg'
+import { globalStyles } from '@/styles/global'
+import { Container, Header } from '@/styles/pages/app'
 
 const roboto = Roboto_Flex({ subsets: ['latin'] })
 
