@@ -35,11 +35,14 @@ export default function Success({ costumerName, product }: SuccessProps) {
 }
 
 
-export const getServerSideProps: GetServerSideProps = async ({ query, res }) => {
+export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   if (typeof query.session_id !== 'string') {
-    res.writeHead(301, { Location: '/' })
-    res.end()
-    return { props: {} }
+    return {
+      redirect: {
+        destination: '/',
+        permanent: false,
+      }
+    }
   }
 
   const sessionId = query.session_id
